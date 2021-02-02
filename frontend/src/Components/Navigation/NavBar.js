@@ -8,22 +8,27 @@ const NavBar = () => {
     <nav className={styles.nav}>
       <div className={styles.navLinks}>
         <Link to="#">
-          <h2>FALCON 9</h2>
+          <h2>HOME</h2>
         </Link>
       </div>
       <div className={styles.navLinks}>
         <Link to="#">
-          <h2>FALCON HEAVY</h2>
+          <h2>ABOUT</h2>
         </Link>
       </div>
       <div className={styles.navLinks}>
         <Link to="#">
-          <h2>DRAGON</h2>
+          <h2>PORTFOLIO</h2>
         </Link>
       </div>
       <div className={styles.navLinks}>
         <Link to="#">
-          <h2>STARSHIP</h2>
+          <h2>BLOG</h2>
+        </Link>
+      </div>
+      <div className={styles.navLinks}>
+        <Link to="#">
+          <h2>CONTACT</h2>
         </Link>
       </div>
     </nav>
