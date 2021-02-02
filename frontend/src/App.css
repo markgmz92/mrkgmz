@@ -1,12 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
-@media only screen and (max-width: 500px) {
-  .nav {
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+@media only screen and (max-width: 768px) {
+  overflow-x: hidden;
 }

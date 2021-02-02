@@ -6,6 +6,7 @@
   justify-content: center;
   z-index: 20;
   background-color: black;
+  position: fixed;
 }
 
 .navLinks {
@@ -17,10 +18,12 @@
   text-align: center;
   position: relative;
   color: white;
+  right: 50px;
 }
 
 .navLinks h2 {
-  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 
 .navLinks a {
@@ -36,7 +39,7 @@
   left: 0;
   width: 100%;
   height: 0.062rem;
-  background: #fff;
+  background: rgb(165, 26, 26);
   transform: scaleX(0);
   transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
   transform-origin: right center;
@@ -46,4 +49,14 @@
   transform: scaleX(1);
   transition-duration: 0.4s;
   transform-origin: left center;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    height: 10vh;
+    width: auto;
+    display: flex;
+    z-index: 20;
+    background-color: black;
+  }
 }
